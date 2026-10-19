@@ -1,0 +1,457 @@
+    1  sudo apt update && sudo apt upgrade -y
+    2  wsl
+    3  mpicc++ --version
+    4  sudo apt update
+    5  sudo apt install libopenmpi-dev
+    6  sudo apt install g++
+    7  mpirun -n 2 ./mpi_time_demo unsynced 0 5
+    8  pwd
+    9  ls -l mpi_time_demo*
+   10  cd ~
+   11  mkdir -p mpi_demo
+   12  cd mpi_demo
+   13  cp /mnt/c/Users/student/Desktop/mpi_time_demo.cpp .
+   14  ls
+   15  cd 
+   16  cd /mnt/c/Users/student/Desktop/
+   17  cd mpi_time_demo/
+   18  ls
+   19  mpirun -n 2 ./mpi_time_demo unsynced 5 -4 mpirun -n 2 ./mpi_time_demo lamport 5 -4 
+   20  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   21  ls
+   22  mpic++ -std=c++17 -O2 mpi_time_demo.cpp -o mpi_time_demo 
+   23  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   24  mpirun -n 2 ./mpi_time_demo lamport 5 -4 
+   25  mpic++ -std=c++17 -O2 mpi_time_demo.cpp -o mpi_time_demo 
+   26  mpirun -n 2 ./mpi_time_demo
+   27  mpirun -n 1 ./mpi_time_demo
+   28  mpirun -n 3 ./mpi_time_demo
+   29  mpirun -n 4 ./mpi_time_demo
+   30  mpirun -n 2 ./mpi_time_demo
+   31  mpic++ -std=c++17 -O2 mpi_time_demo.cpp -o mpi_time_demo 
+   32  mpirun -n 2 ./mpi_time_demo
+   33  mpic++ -std=c++17 -O2 mpi_time_demo.cpp -o mpi_time_demo 
+   34  mpirun -n 2 ./mpi_time_demo
+   35  ls
+   36  mpic++ -std=c++17 -02 christians_algorithm.cpp -o christians_algorithm
+   37  mpic++ -std=c++17 -O2 christians_algorithm.cpp -o christians_algorithm
+   38  mpirun -n 2 ./christians_algorithm
+   39  mpic++ -std=c++17 -O2 christians_algorithm.cpp -o christians_algorithm
+   40  mpirun -n 2 ./christians_algorithm
+   41  mpic++ -std=c++17 -O2 mpi_time_demo.cpp -o mpi_time_demo 
+   42  mpirun -n 2 ./mpi_time_demo
+   43  mpic++ -std=c++17 -O2 christians_algorithm.cpp -o christians_algorithm
+   44  mpirun -n 2 ./christians_algorithm
+   45  mpirun -n 2 ./mpi_time_demo
+   46  mpirun -n 2 ./christians_algorithm
+   47  sudo apt update
+   48  sudo apt install libopenmpi-dev
+   49  sudo apt install g++
+   50  mpic++ -std=c++17 -02 mpi_time_demo.cpp -o mpi_time_demo
+   51  mpic++ -std=c++17 
+   52  mpic++ -std=c++17 -02 mpi_time_demo.cpp -o mpi_time_demo
+   53  mpic++ -std=c++17 -O2 mpi_time_demo.cpp -o mpi_time_demo
+   54  mpirun -n 2 ./mpi_time_demo <mode> <offset_rank0_seconds> <offset_rank1_seconds>
+   55  mpirun -n 2 ./mpi_time_demo
+   56  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   57  mpirun -n 2 ./mpi_time_demo lamport 5 -4
+   58  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   59  mpirun -n 2 ./mpi_time_demo lamport 5 -4
+   60  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   61  mpirun -n 2 ./mpi_time_demo lamport 5 -4
+   62  mpirun -n 2 ./mpi_time_demo lamport 7 -6
+   63  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   64  mpirun -n 2 ./christians_algorithm unsynced 5 -4
+   65  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   66  mpirun -n 2 ./vector unsynced 5 -4
+   67  mpirun -n 2 ./christians_algorithm unsynced 5 -4
+   68  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   69  mpirun -n 2 ./christians_algorithm unsynced 5 -4
+   70  mpirun -n 2 ./vector.cpp 5 -4
+   71  mpirun -n 2 ./vector 5 -4
+   72  mpirun -n 2 ./vector unsynced 5 -4
+   73  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   74  mpic++ -std=c++17 -O2 mpi_time_demo.cpp -o mpi_time_demo
+   75  mpic++ -std=c++17 -O2 christians_algorythm.cpp -o mpi_time_demo
+   76  mpic++ -std=c++17 -O2 christians_algorithm.cpp -o mpi_time_demo
+   77  mpirun -n 2 ./christians_algorithm unsynced 5 -4
+   78  mpicc -O2 -std=c11 mpi_time_demo.c -o mpi_time_demo
+   79  mpicc -O2 -std=c11 allcode.c -o allcode
+   80  mpicc -O2 -std=c11 mpi_time_demo.c -o mpi
+   81  mpirun -n 2 ./christians_algorithm unsynced 5 -4
+   82  mpic++ -std=c++17 -O2 mpi_time_demo.cpp -o mpi_time_demo
+   83  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   84  mpic++ -std=c++17 -O2 allcode.cpp -o allcode
+   85  mpirun -n 2 ./mpi_time_demo unsynced 5 -4  # Unsynced mode with different offsetsmpirun -n 2 ./ unsynced 5 -4
+   86  mpirun -n 2 ./allcode cristian 0 0
+   87  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   88  mpirun -n 2 ./mpi_time_demo lamport 5 -4
+   89  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   90  mpirun -n 2 ./cristian_algorithm unsynced 5 -4
+   91  mpirun -n 2 ./cristians_algorithm unsynced 5 -4
+   92  mpirun -n 2 ./christians_algorithm unsynced 5 -4
+   93  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   94  mpirun -n 2 ./christians_algorithm unsynced 5 -4
+   95  mpirun -n 2 ./mpi_time_demo unsynced 5 -4
+   96  mpic++ -std=c++17 -O2 christians_algorithm.cpp -o christians_algorithm
+   97  mpirun -n 2 ./christians_algorithm unsynced 5 -4
+   98  gcc -v 
+   99  clear
+  100  code .
+  101  mpic++ -std=c++17 -O2proba.cpp -o proba
+  102  mpic++ -v
+  103  mpic++ -std=c++17 -O2 proba.cpp proba
+  104  sudo apt reinstall g++
+  105  mpic++ -std=c++17 -O2 proba.cpp proba
+  106  sudo apt reinstall build-essential
+  107  mpic++ -std=c++17 -O2 proba.cpp proba
+  108  mpic++ -std=c++17 -O2 proba.cpp -o proba
+  109  mpirun -n 2 ./proba unsynced 5 -4 
+  110  mpirun -n 2 ./proba lamport 5 -4 
+  111  mpic++ -std=c++17 -O2 zad1.cpp -o zad1
+  112  mpirun -n 2 ./zad1 unsynced 5 -4 
+  113  mpirun -n 2 ./zad1 lamport 5 -4 
+  114  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  115  mpirun -n 2 ./zad2 lamport 5 -4
+  116  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  117  mpirun -n 2 ./zad2 lamport 5 -4
+  118  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  119  mpirun -n 2 ./zad2 lamport 5 -4
+  120  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  121  ls
+  122  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  123  mpirun -n 2 ./zad3 lamport 5 -4
+  124  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  125  mpirun -n 2 ./zad3 lamport 5 -4
+  126  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  127  mpirun -n 2 ./zad2 lamport 5 -4
+  128  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  129  mpirun -n 2 ./zad3 lamport 5 -4
+  130  mpirun -n 2 ./zad3 unsynced 5 -4
+  131  mpirun -n 2 ./zad2 unsynced 5 -4
+  132  mpirun -n 2 ./zad1 unsynced 5 -4
+  133  mpirun -n 2 ./zad2 unsynced 5 -4
+  134  mpic++ -std=c++17 -O2 zad1.cpp -o zad3
+  135  mpic++ -std=c++17 -O2 zad2.cpp -o zad3
+  136  mpic++ -std=c++17 -O2 zad1.cpp -o zad3
+  137  mpirun -n 2 ./zad1 unsynced 5 -4
+  138  mpirun -n 2 ./zad2 unsynced 5 -4
+  139  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  140  mpirun -n 2 ./zad2 unsynced 5 -4
+  141  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  142  mpirun -n 2 ./zad2 unsynced 5 -4
+  143  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  144  mpirun -n 2 ./zad2 unsynced 5 -4
+  145  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  146  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  147  mpirun -n 2 ./zad2 unsynced 5 -4
+  148  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  149  mpirun -n 2 ./zad2 unsynced 5 -4
+  150  mpic++ -std=c++17 -O2 zad2.cpp -o zad2
+  151  mpirun -n 2 ./zad2 unsynced 5 -4
+  152  mpirun -n 2 ./zad3 unsynced 5 -4
+  153  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  154  mpirun -n 2 ./zad3 unsynced 5 -4
+  155  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  156  mpirun -n 2 ./zad3 unsynced 5 -4
+  157  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  158  mpirun -n 2 ./zad3 unsynced 5 -4
+  159  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  160  mpirun -n 2 ./zad3 unsynced 5 -4
+  161  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  162  mpirun -n 2 ./zad3 unsynced 5 -4
+  163  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  164  mpirun -n 2 ./zad3 unsynced 5 -4
+  165  mpic++ -std=c++17 -O2 zad3.cpp -o zad3
+  166  mpirun -n 2 ./zad3 unsynced 5 -4
+  167  exit t
+  168  ls
+  169  gcc -v
+  170  clear
+  171  ls
+  172  code .
+  173  mpic++ --help
+  174  mpic++ -std=c++17 -O2bully.cpp -o bully
+  175  mpic++ -std=c++17 -O2 bully.cpp -o bull
+  176  mpic++ --help
+  177  mpicc --help
+  178  ls
+  179  mpic++
+  180  mpic++ --version
+  181  mpic++ ./bully.cpp -o bully
+  182  mpirun -n 4 ./bully
+  183  mpirun -n 4 --oversubscribe ./bully
+  184  mpic++ ./bully.cpp -o bully
+  185  mpirun -n 4 --oversubscribe ./bully
+  186  mpic++ ./bully.cpp -o bully
+  187  mpirun -n 4 --oversubscribe ./bully
+  188  mpic++ ./bully.cpp -o bully
+  189  mpirun -n 4 --oversubscribe ./bully
+  190  mpic++ ./bully.cpp -o bully
+  191  mpirun -n 4 --oversubscribe ./bully
+  192  mpic++ ./bully.cpp -o bully
+  193  mpirun -n 4 --oversubscribe ./bully
+  194  mpic++ ./bully.cpp -o bully
+  195  mpirun -n 4 --oversubscribe ./bully
+  196  mpic++ ./bully.cpp -o bully
+  197  mpirun -n 4 --oversubscribe ./bully
+  198  mpirun -n 4 ./bully
+  199  mpirun -n 4 --oversubscribe ./bully
+  200  mpirun -n 4 ./bully
+  201  mpic++ ./bully.cpp -o bully
+  202  mpirun -n 4 ./bully
+  203  mpic++ ./bully.cpp -o bully
+  204  mpirun -n 4 ./bully
+  205  mpic++ ./bully.cpp -o bully
+  206  mpirun -n 4 ./bully
+  207  mpic++ ./bully.cpp -o bully
+  208  mpirun -n 4 ./bully
+  209  mpic++ ./bully.cpp -o bully
+  210  mpirun -n 4 ./bully
+  211  mpic++ ./bully.cpp -o bully
+  212  mpirun -n 4 ./bully
+  213  mpic++ ./bully.cpp -o bully
+  214  mpirun -n 4 ./bully
+  215  mpic++ ./bully.cpp -o bully
+  216  mpirun -n 4 ./bully
+  217  mpic++ ./bully.cpp -o bully
+  218  mpirun -n 4 ./bully
+  219  mpic++ ./bully.cpp -o bully
+  220  mpirun -n 4 ./bully
+  221  mpic++ ./bully.cpp -o bully
+  222  mpirun -n 4 ./bully
+  223  mpic++ ./bully.cpp -o bully
+  224  mpirun -n 4 ./bully
+  225  mpic++ ./bully.cpp -o bully
+  226  mpirun -n 4 ./bully
+  227  mpic++ ./bully.cpp -o bully
+  228  mpirun -n 4 ./bully
+  229  mpic++ ./bully.cpp -o bully
+  230  mpirun -n 4 ./bully
+  231  mpic++ ./bully.cpp -o bully
+  232  mpirun -n 4 ./bully
+  233  mpic++ ./bully.cpp -o bully
+  234  mpirun -n 4 ./bully
+  235  mpic++ ./bully.cpp -o bully
+  236  mpirun -n 4 ./bully
+  237  mpic++ ./bully.cpp -o bully
+  238  mpirun -n 4 ./bully
+  239  mpic++ ./bully.cpp -o bully
+  240  mpirun -n 4 ./bully
+  241  mpic++ ./bully.cpp -o bully
+  242  mpirun -n 4 ./bully
+  243  mpic++ ./bully.cpp -o bully
+  244  mpirun -n 4 ./bully
+  245  mpic++ ./bully.cpp -o bully
+  246  mpirun -n 4 ./bully
+  247  mpic++ ./bully.cpp -o bully
+  248  mpirun -n 4 ./bully
+  249  mpic++ ./bully.cpp -o bully
+  250  mpirun -n 4 ./bully
+  251  mpic++ ./bully.cpp -o bully
+  252  mpirun -n 4 ./bully
+  253  mpic++ ./bully.cpp -o bully
+  254  mpirun -n 4 ./bully
+  255  mpic++ ./bully2.cpp -o bully2
+  256  mpirun -n 4 ./bully2
+  257  mpirun -n 4 --oversubscribe ./bully
+  258  mpic++ ./bully.cpp -o bully
+  259  mpirun -n 4 --oversubscribe ./bully
+  260  mpic++ ./bully.cpp -o bully
+  261  mpirun -n 4 --oversubscribe ./bully
+  262  mpic++ ./ring.cpp -o ring
+  263  mpirun -n 4 --oversubscribe ./ring
+  264  mpic++ ./ring.cpp -o ring
+  265  mpirun -n 4 --oversubscribe ./ring
+  266  mpic++ ./bully.cpp -o bully
+  267  mpirun -n 4 --oversubscribe ./bully
+  268  mpic++ ./bully.cpp -o bully
+  269  mpirun -n 4 --oversubscribe ./bully
+  270  mpic++ ./bully.cpp -o bully
+  271  mpirun -n 4 --oversubscribe ./bully
+  272  mpic++ ./bully.cpp -o bully
+  273  mpirun -n 4 --oversubscribe ./bully
+  274  mpic++ ./bully.cpp -o bully
+  275  mpirun -n 4 --oversubscribe ./bully
+  276  mpic++ ./bully.cpp -o bully
+  277  mpirun -n 4 --oversubscribe ./bully
+  278  sudo apt update && sudo apt upgrade -y
+  279  sudo apt install build-essential 
+  280  sudo apt autoremove
+  281  clear
+  282  git --version
+  283  git -v
+  284  git config --global user.name
+  285  git config --global user.name "AtlagicBartol"
+  286  git config --global user.email "bartol.atlagic21@gmail.com"
+  287  git config --global user.name
+  288  mkdir git_course
+  289  cd git_course
+  290  git init
+  291  touch main.c
+  292  git status
+  293  git add main.c
+  294  git status
+  295  git commit -m "Moj prvi commit"
+  296  git status
+  297  nano main.c
+  298  git status
+  299  git diff
+  300  git add main.c
+  301  git diff --cached 
+  302  git dommit -m "Moj drugi commit"
+  303  git commit -m "Moj drugi commit"
+  304  git log
+  305  gi log --oneline
+  306  git log --oneline
+  307  nano main.c
+  308  git add main.c
+  309  git commit -m "Moj treci commit"
+  310  git log --oneline
+  311  git checkout 07348d6
+  312  git log
+  313  cat main.c
+  314  git checkout master
+  315  cat main.c
+  316  nano main.c
+  317  git status
+  318  git diff
+  319  git restore main.c
+  320  git add main.c
+  321  git restrore --staged main.c
+  322  git restore --staged main.c
+  323  git status
+  324  git log --oneline
+  325  nano main.c
+  326  git add main.c
+  327  git commit -m "Netocan commit"
+  328  git revert HEAD --no-edit
+  329  git log --oneline
+  330  git reset 1c16692 --hard
+  331  git log --oneline
+  332  git commit --amend
+  333  git log --oneline
+  334  mkdir src
+  335  git mv main.c src/main.c
+  336  git status
+  337  git commit -m "premjersten main.c u src direktorij"
+  338  git branch
+  339  git checkout -b dev1
+  340  nano src/main.c
+  341  git add src/main.c
+  342  git commit -m "prvi commit na dev1 grani"
+  343  git branch
+  344  git log --oneline --graph --all
+  345  git checkout master
+  346  touch README.txt
+  347  git add README.txt
+  348  git commit -m "Dodana README datoteka"
+  349  git log --oneline --graph --all
+  350  git checkout dev1
+  351  git rebase master
+  352  git rebase main
+  353  git rebase master
+  354  git log --oneline --graph --all
+  355  nano src/main.c
+  356  git add src/main.c
+  357  git commit -m"Drugi commit na dev1 grani"
+  358  git checkout master
+  359  git checkout -b dev2
+  360  nano src/main.c
+  361  git log --oneline --graph --all
+  362  nano src/main.c
+  363  branch
+  364  git checkout
+  365  git branch
+  366  git add src/main.c
+  367  git commit -m "Prvi commit na dev2 grani"
+  368  git revase dev1
+  369  git rebase dev1
+  370  git status
+  371  nano src/main.c
+  372  git add src/main.c
+  373  git rebase --continue
+  374  git log --oneline --graph --all
+  375  git checkout master
+  376  git checkout -b dev3
+  377  nano src/main.c
+  378  git add src/main.c
+  379  git commit -m "Prvi commit na dev3 grani"
+  380  git checkout dev1
+  381  git merge dev3
+  382  nano src/main.c
+  383  git merge dev3
+  384  git branh
+  385  git branch
+  386  git merge dev3
+  387  git add src/main.c
+  388  git rebase --continue
+  389  git merge dev3
+  390  git rebase --abort
+  391  git add src/main.c
+  392  git commit
+  393  git log --oneline --graph --all
+  394  git log dev3 --oneline
+  395  git checkout dev1
+  396  git cherry-pick d454d62
+  397  git cherry-pick a1981ef
+  398  git log --oneline --graph --all
+  399  git cherry-pick d2c8fcc
+  400  git commit -m "Commit 5"
+  401  git status
+  402  git add main.c
+  403  git status
+  404  git cherry-pick d2c8fcc
+  405  git cherry-pick a1981ef
+  406  git commit -m "commit 5"
+  407  git cherry-pick d2c8fcc
+  408  git cherry-pick a1981ef
+  409  git log --oneline --graph --all
+  410  git cherry-pick d2c8fcc
+  411  git staus
+  412  git status
+  413  git cherry-pick --continue
+  414  git commit --allow-empty
+  415  git status
+  416  git log --oneline --graph --all
+  417  ls -la ~/.ssh
+  418  ssh-keygen-t ed25519-C "bartol.atlagic21@gmail.com"
+  419  ssh-keygen -t ed25519-C "bartol.atlagic21@gmail.com"
+  420  ssh-keygen -t ed25519 -C "bartol.atlagic21@gmail.com"
+  421  cat ~/.ssh/id_ed25519.pub
+  422  ssh -T git@github.com
+  423  cd ~/git_course
+  424  git remote -v
+  425  git remote add origin git@github.com:USERNAME/Linux-embedded-LV
+  426  git remote add origin git@github.com:AtlagicBartol/Linux-embedded-LV.git
+  427  git remove origin
+  428  git remote rm origin
+  429  git remote add origin git@github.com:AtlagicBartol/Linux-embedded-LV.git
+  430  git remote -v
+  431  git branch
+  432  git push -u origin master
+  433  git push --all origin
+  434  git checkout dev1
+  435  nan src/main.c
+  436  nano src/main.c
+  437  git add src/main.c
+  438  git commit -m "Nova promjena na dev1"
+  439  git push
+  440  git push --set-upstream origin dev1
+  441  git branch
+  442  cd ~
+  443  mkdir test_dir
+  444  cd test_dir
+  445  git clone git@github.com:AtlagicBartol/Linux-embedded-LV.git
+  446  cd git_course
+  447  cd .
+  448  cd ..
+  449  cd git_course
+  450  git status
+  451  git remote -v
+  452  got branch -a
+  453  git branch -a
+  454  git log --oneline --graph --all
+  455  git checkout -b lv1
+  456  history > bartol.atlagic
+  457  history > bartol.atlagic.txt
